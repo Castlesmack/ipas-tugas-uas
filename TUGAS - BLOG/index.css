@@ -40,12 +40,21 @@ section h1 {
 
 #home {
     padding-top: 150px;
+    padding-bottom: 50px;
     background: rgb(107, 57, 209);
     background: linear-gradient(0deg, rgba(107, 57, 209, 1) 8%, rgba(67, 17, 167, 1) 50%);
     text-align: center;
+
 }
 
-
+#home-body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: rgb(107, 57, 209);
+    background: linear-gradient(180deg, rgb(107, 57, 209) 0%, rgba(85, 0, 255, 1) 100%);
+}
 
 
 
@@ -78,7 +87,7 @@ section h1 {
 .portfolio-section {
     overflow: hidden;
     background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 8%, rgba(107, 57, 209, 1) 50%);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 8%, rgba(85, 0, 255, 1) 50%);
     padding-bottom: 100px;
 }
 
@@ -116,7 +125,7 @@ section h1 {
 .footer-content {
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
 }
 
 footer {
@@ -132,11 +141,15 @@ footer {
     justify-content: center;
 }
 
+article h2 {
+    margin-top: -100px;
+}
+
 article {
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    height: 400px;
+    height: 250px;
     width: 200px;
     text-align: center;
     border-radius: 15px;
@@ -202,8 +215,8 @@ img {
 /* Caption text */
 .text {
     color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
+    font-size: 30px;
+    padding: 8px 15px;
     position: absolute;
     bottom: 8px;
     width: 100%;
@@ -260,4 +273,9 @@ img {
     .text {
         font-size: 11px
     }
+}
+
+#aboutpar li {
+    list-style-type: none;
+
 }
